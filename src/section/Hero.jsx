@@ -149,16 +149,16 @@ const Hero = () => {
         </Canvas>
       </div>
 
-      <div className="absolute bottom-1 left-0 right-0 w-ful z-10 px-5 sm:px-10">
+      <div className="absolute  bottom-1 left-0 right-0 w-ful z-10 px-5 sm:px-10">
         <a href="#contact">
           <Button
             name={"Lets Work Together"}
             isBeam
             containerClass={
-              "bg-gray-700/50 flex items-center px-3 h-[50px] justify-center sm:w-[300px] md:w-[400px] lg:w-[500px] "
+              "bg-[#2f2f2f]/50 flex items-center px-3 h-[50px] justify-center sm:w-[300px] md:w-[400px] lg:w-[500px] "
             }
           />
-        </a> 
+        </a>
       </div>
     </section>
   );

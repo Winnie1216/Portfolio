@@ -23,11 +23,11 @@ body {
 
 @layer utilities {
   .c-space {
-    @apply px-10 ;
+    @apply sm:p-10 px-5 ;
   }
 
   .head-text {
-    @apply sm:text-4xl text-3xl font-semibold;
+    @apply sm:text-4xl text-3xl font-semibold text-white;
   }
 
   .nav-ul {
@@ -68,11 +68,11 @@ body {
 
   /* about section */
   .grid-container {
-    @apply w-full h-full border rounded-lg sm:p-7 p-4 flex flex-col gap-5;
+    @apply  w-full h-full sm:p-7 p-4 flex flex-col gap-3;
   }
 
   .grid-headtext {
-    @apply text-xl font-semibold mb-2 text-white;
+    @apply text-xl font-semibold  text-white;
   }
 
   .grid-subtext {
@@ -87,6 +87,15 @@ body {
  /* hero section */
  .hero_tag {
   @apply text-center xl:text-6xl md:text-5xl sm:text-4xl text-3xl  font-black !leading-normal;
+}
+
+
+/*Projects Section*/
+.tech-logo {
+  @apply w-10 h-10 rounded-md p-2  bg-white/10 backdrop-filter backdrop-blur-lg flex justify-center items-center;
+}
+.arrow-btn {
+  @apply w-10 h-10 p-3 cursor-pointer active:scale-95 transition-all rounded-full ;
 }
 
 .waving-hand {
