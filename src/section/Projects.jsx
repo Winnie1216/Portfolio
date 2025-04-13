@@ -28,9 +28,9 @@ const Projects = () => {
   return (
     <section className="p-[16px] my-20 w-full " id="work">
       <p className="head-text text-left">My Projects</p>
-      <div className="grid lg:grid-cols-2 grid-cols-1 mt-12 w-full gap-10">
+      <div className="grid lg:grid-cols-2 grid-cols-1 mt-12 w-full gap-10 ">
         <div className="grid-cols-1">
-          <div className="relative flex flex-col gap-5 px-5 sm:p-10 py-10 shadow-2xl shadow-gray-800 rounded-2xl ">
+          <div className="relative flex flex-col gap-5 px-5 sm:p-10 h-auto shadow-2xl shadow-gray-800 rounded-2xl ">
             <div className="absolute top-0 right-0">
               <img
                 src={currentPro.spotlight}
@@ -79,7 +79,7 @@ const Projects = () => {
             </div>
             <div className="w-full justify-between items-center flex">
               <div
-                className="cursor-pointer"
+                className="cursor-pointer py-6"
                 onClick={() => {
                   handleNav("previous");
                 }}

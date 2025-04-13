@@ -57,51 +57,15 @@ export const navLinks = [
   ];
   
   export const myProjects = [
+    
     {
-      title: 'Podcastr - AI Podcast Platform',
-      desc: 'Podcastr is a revolutionary Software-as-a-Service platform that transforms the way podcasts are created. With advanced AI-powered features like text-to-multiple-voices functionality, it allows creators to generate diverse voiceovers from a single text input.',
+      title: 'TidyTeddy-Cleaning',
+      desc: 'TidyTeddy Cleaning is a comprehensive service platform designed to provide top-notch organizing, cleaning, packing, and moving solutions for both individuals and businesses in Sydney. As a key project I contributed to during my internship, this platform showcases my skills in full-stack development, user interface design, and API integration..',
       subdesc:
-        'Built as a unique Software-as-a-Service app with Next.js 14, Tailwind CSS, TypeScript, Framer Motion and Convex, Podcastr is designed for optimal performance and scalability.',
-      href: 'https://www.youtube.com/watch?v=zfAb95tJvZQ',
-      texture: '/textures/project/project1.mp4',
-      logo: '/assets/project-logo1.png',
-      logoStyle: {
-        backgroundColor: '#2A1816',
-        border: '0.2px solid #36201D',
-        boxShadow: '0px 0px 60px 0px #AA3C304D',
-      },
-      spotlight: '/assets/spotlight1.png',
-      tags: [
-        {
-          id: 1,
-          name: 'React.js',
-          path: '/assets/react.svg',
-        },
-        {
-          id: 2,
-          name: 'TailwindCSS',
-          path: 'assets/tailwindcss.png',
-        },
-        {
-          id: 3,
-          name: 'TypeScript',
-          path: '/assets/typescript.png',
-        },
-        {
-          id: 4,
-          name: 'Framer Motion',
-          path: '/assets/framer.png',
-        },
-      ],
-    },
-    {
-      title: 'LiveDoc - Real-Time Google Docs Clone',
-      desc: 'LiveDoc is a powerful collaborative app that elevates the capabilities of real-time document editing. As an enhanced version of Google Docs, It supports millions of collaborators simultaneously, ensuring that every change is captured instantly and accurately.',
-      subdesc:
-        'With LiveDoc, users can experience the future of collaboration, where multiple contributors work together in real time without any lag, by using Next.js and Liveblocks newest features.',
-      href: 'https://www.youtube.com/watch?v=y5vE8y_f_OM',
+        "I implemented a robust RESTful API interaction workflow using Node.js and Express, ensuring efficient data handling and seamless integration between front-end and back-end systems. And I optimized front-end performance by leveraging React.js and Tailwind CSS, delivering a responsive and intuitive user interface that significantly enhanced the overall user experience.",
+
       texture: '/textures/project/project2.mp4',
-      logo: '/assets/project-logo2.png',
+      logo: '/assets/tidyTeddy.jpg',
       logoStyle: {
         backgroundColor: '#13202F',
         border: '0.2px solid #17293E',
@@ -123,11 +87,6 @@ export const navLinks = [
           id: 3,
           name: 'TypeScript',
           path: '/assets/typescript.png',
-        },
-        {
-          id: 4,
-          name: 'Framer Motion',
-          path: '/assets/framer.png',
         },
       ],
     },
@@ -278,11 +237,11 @@ export const navLinks = [
     },
     {
       id: 3,
-      name: 'Notion',
-      pos: 'Junior Web Developer',
-      duration: '2019 - 2020',
-      title: "Notion helps me keep my projects organized. I use it for project management, task tracking, and as a central hub for documentation, ensuring that everything from design notes to.",
-      icon: '/assets/notion.svg',
+      name: 'Intern: TidyTeddy (Sydney)',
+      pos: 'Frontend Developer',
+      duration: '11/2024 - 05/2025',
+      title: " I honed my skills in developing responsive user interfaces using React.js and Tailwind CSS, ensuring optimal performance and a seamless user experience across various devices. ",
+      icon: '/assets/tidyTeddy.jpg',
       animation: 'salute',
     },
   ];

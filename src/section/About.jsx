@@ -27,8 +27,7 @@ const handleCopy=()=>{
 
             <div className="grid-headtext text-left">I'm winnie</div>
             <div className="grid-subtext text-left ">
-              I'm winnie from university of wollongong,I'm a student i'22 years
-              old
+            Hello, I'm Winnie (Huihui Yao), a recent IT graduate with a strong foundation in full-stack development. I'm eager to apply my technical skills to real-world projects and passionate about creating efficient, scalable solutions.
             </div>
           </div>
         </div>
@@ -42,7 +41,7 @@ const handleCopy=()=>{
             <div className="grid-headtext text-left">Tech Stack</div>
             <div className="grid-subtext text-left">
               I specialize in a variety of languages, frameworks, and tools that
-              allow me to build robust and scalable applications
+              allow me to build robust and scalable applications.
             </div>
           </div>
         </div>
@@ -67,11 +66,13 @@ const handleCopy=()=>{
               I'm based in Sydney,and open to remote work worldwide.
             </p>
             <div className="mt-8">
-              <Button
+            <a href="#contact">
+             <Button
                 name={"Contact Me"}
                 isBeam
                 containerClass={"bg-[#2f2f2f]/50 w-full"}
-              />
+                
+              /></a>
             </div>
           </div>
         </div>

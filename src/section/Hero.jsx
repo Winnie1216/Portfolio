@@ -92,7 +92,7 @@ const Hero = () => {
     >
       <div className="w-full mx-auto flex flex-col  mt-10 c-space gap-3">
         <p className="text-3xl text-white  xl:text-4xl ">
-          Hi, I'm Winnie{" "}
+          Hi, I'm Winnie (HUIHUI YAO)
           <span className="waving-hand  xl:text-6xl md:text-5xl sm:text-4xl text-3xl text-white">
             👋
           </span>
@@ -152,7 +152,7 @@ const Hero = () => {
       <div className="absolute  bottom-1 left-0 right-0 w-ful z-10 px-5 sm:px-10">
         <a href="#about">
           <Button
-            name={"Lets Work Together"}
+            name={"Let's Work Together"}
             isBeam
             containerClass={
               "bg-[#2f2f2f]/50 flex items-center px-3 h-[50px] justify-center sm:w-[300px] md:w-[400px] lg:w-[500px] "
