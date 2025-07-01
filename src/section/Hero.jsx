@@ -92,7 +92,7 @@ const Hero = () => {
     >
       <div className="w-full mx-auto flex flex-col  mt-10 c-space gap-3">
         <p className="text-3xl text-white  xl:text-4xl ">
-          Hi, I'm Winnie (HUIHUI YAO)
+          Hi, I'm Winnie (HUIHUI) YAO
           <span className="waving-hand  xl:text-6xl md:text-5xl sm:text-4xl text-3xl text-white">
             👋
           </span>

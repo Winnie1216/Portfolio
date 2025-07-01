@@ -25,9 +25,12 @@ const handleCopy=()=>{
               className="w-full object-contain sm:h-[276px]"
             />
 
-            <div className="grid-headtext text-left">I'm winnie</div>
+            <div className="grid-headtext text-left">I'm Winnie Yao</div>
             <div className="grid-subtext text-left ">
-            Hello, I'm Winnie (Huihui Yao), a recent IT graduate with a strong foundation in full-stack development. I'm eager to apply my technical skills to real-world projects and passionate about creating efficient, scalable solutions.
+            Hi, I’m Winnie Yao, a full-stack developer with a strong passion for building clean, user-focused digital experiences. My strength lies in bridging backend logic with polished frontend experiences, always aiming for clean, maintainable code.
+With Agile team experience and a delivery-first mindset, I’m ready to turn ideas into real, impactful products.
+
+
             </div>
           </div>
         </div>
@@ -40,8 +43,7 @@ const handleCopy=()=>{
             />
             <div className="grid-headtext text-left">Tech Stack</div>
             <div className="grid-subtext text-left">
-              I specialize in a variety of languages, frameworks, and tools that
-              allow me to build robust and scalable applications.
+              I specialize in React, Node.js, and .NET, and I’m comfortable working across the full development lifecycle — from frontend design to backend architecture. I have hands-on experience with TypeScript, Tailwind CSS, and modern build tools like Vite and Webpack, and I’ve delivered production-grade features in both monolithic and microservice environments.
             </div>
           </div>
         </div>
@@ -93,7 +95,7 @@ const handleCopy=()=>{
             <p className="grid-subtext">Contact Me</p>
             <span onClick={handleCopy} className=" cursor-pointer flex justify-center items-center gap-2 mt-2 ">
               <img src={isCopied? "assets/tick.svg":"assets/copy.svg"} alt="copy" />
-              <span className=" lg:text-xl md:text-xl font-medium  text-white">winnie1197943420@gmail.com</span>
+              <span className=" lg:text-xl md:text-xl font-medium  text-white">huihuiyao1120@gmail.com</span>
             </span>
 
           </div>

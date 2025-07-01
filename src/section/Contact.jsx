@@ -64,12 +64,10 @@ const Contact = () => {
           alt="terminal"
           className="inset-0 absolute min-h-screen "
         />
-        <div className="relative flex flex-col gap-5  justify-start z-10 max-w-xl px-10 text-left">
+        <div className="relative flex flex-col gap-5  justify-start z-10 max-w-xl px-10 text-left w-[600px]">
           <div className="head-text   ">Let's talk</div>
           <p className="grid-subtext ">
-            Whether you’re looking to build a new website, improve your
-            platform, or bring a unique and fantastic project to life, I'm here
-            to help.
+           
           </p>
           <form
             ref={formRef}

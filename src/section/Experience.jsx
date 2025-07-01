@@ -9,7 +9,7 @@ const Experience = () => {
   return (
     <section className="w-full my-20 px-[16px] ">
       <div className="head-text text-left w-full">
-        My Project & Work Experience
+         Relevant Experience
       </div>
       <div
         className="my-4 grid grid-cols-1 lg:grid-cols-[minmax(500px,_auto)_1fr] gap-8

@@ -9,12 +9,10 @@ export const Footer = () => {
           <a href="https://github.com/Winnie1216" target="_blank">
             <img src="/assets/github.svg" alt="github" className="h-8 w-8" />
           </a>
-          <a href="https://github.com/Winnie1216" target="_blank">
-            <img src="/assets/github.svg" alt="github" className="h-8 w-8" />
+          <a href="https://www.linkedin.com/feed/" target="_blank">
+            <img src="/assets/linkedin.png" alt="linkedin" className="h-8 w-8" />
           </a>
-          <a href="https://github.com/Winnie1216" target="_blank">
-            <img src="/assets/github.svg" alt="github" className="h-8 w-8" />
-          </a>
+         
         </div>
         <div className="grid-subtext text-left">
           <p>© 2025 Winnie(Huihui Yao). All rights reserved.</p>
