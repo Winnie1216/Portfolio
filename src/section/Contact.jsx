@@ -91,7 +91,7 @@ const Contact = () => {
               <input
                 type="text"
                 name="email"
-                placeholder="ex., winnie1197943420@gmail.com"
+                placeholder="ex., huihuiyao1120@gmail.com"
                 required
                 value={form.email}
                 onChange={handleChange}
