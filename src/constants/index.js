@@ -98,7 +98,7 @@ export const navLinks = [
       subdesc:
         'I also built a dynamic announcement section, contact interface, and integrated form submissions to support internal communication and management. The platform was designed to be scalable and maintainable, ensuring future committee members can easily update content or extend its functionality. ',
       href: 'https://www.ucscomputing.club/',
-      texture: '/textures/project/uow.mp4',
+      texture:"/Portfolio/textures/project/uow.mp4",
       logo: '/Portfolio/assets/uow_logo.png',
       logoStyle: {
         backgroundColor: '#60f5a1',
