@@ -11,7 +11,7 @@ import { useGLTF } from '@react-three/drei'
 import { useFrame } from '@react-three/fiber' 
 
 const CheeseMoon=(props)=> {
-  const { nodes, materials } = useGLTF('/models/cheese_moon.glb')
+  const { nodes, materials } = useGLTF('/Portfolio/models/cheese_moon.glb')
   const moonRef = useRef()
   
   useFrame((state, delta) => {
@@ -36,5 +36,5 @@ const CheeseMoon=(props)=> {
   )
 }
 
-useGLTF.preload('/models/cheese_moon.glb')
+useGLTF.preload('/Portfolio/models/cheese_moon.glb')
 export default CheeseMoon;

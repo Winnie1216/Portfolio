@@ -60,7 +60,7 @@ const Contact = () => {
 
       <div className="relative w-full flex flex-col justify-center items-center py-20 ">
         <img
-          src="/assets/terminal.png"
+          src="/Portfolio/assets/terminal.png"
           alt="terminal"
           className="inset-0 absolute min-h-screen "
         />
@@ -117,7 +117,7 @@ const Contact = () => {
             >
               {loading ? "Loading..." : "Send Message"}
               <img
-                src="/assets/arrow-up.png"
+                src="/Portfolio/assets/arrow-up.png"
                 alt="submit"
                 className="h-3 w-3 "
               />

@@ -26,7 +26,7 @@ const Projects = () => {
   const currentPro = myProjects[selectedIndex];
 
   return (
-    <section className="p-[16px] my-20 w-full " id="work">
+    <section className="py-[16px] my-20 w-full " id="work">
       <p className="head-text text-left">My Projects</p>
       <div className="grid lg:grid-cols-2 grid-cols-1 mt-12 w-full gap-10 ">
         <div className="grid-cols-1">
@@ -70,7 +70,7 @@ const Projects = () => {
                 >
                   <span className="grid-subtext ">Check Live Site</span>
                   <img
-                    src="/assets/arrow-up.png"
+                    src="/Portfolio/assets/arrow-up.png"
                     alt="href"
                     className="w-3 h-3"
                   />
@@ -86,7 +86,7 @@ const Projects = () => {
                 }}
               >
                 <img
-                  src="/assets/left-arrow.png"
+                  src="/Portfolio/assets/left-arrow.png"
                   alt="left-arrow"
                   className="w-4 h-4"
                 />
@@ -98,7 +98,7 @@ const Projects = () => {
                 }}
               >
                 <img
-                  src="/assets/right-arrow.png"
+                  src="/Portfolio/assets/right-arrow.png"
                   alt="right-arrow"
                   className="w-4 h-4"
                 />

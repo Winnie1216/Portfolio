@@ -20,7 +20,7 @@ const handleCopy=()=>{
         <div className="col-span-1 xl:row-span-3 bg-[#111111]    ">
           <div className="rounded-2xl border-1 border-[#424242] grid-container">
             <img
-              src="/assets/grid1.png"
+              src="/Portfolio/assets/grid1.png"
               alt="grid1"
               className="w-full object-contain sm:h-[276px]"
             />
@@ -37,7 +37,7 @@ With Agile team experience and a delivery-first mindset, I’m ready to turn ide
         <div className="col-span-1 xl:row-span-3 w-full  bg-[#111111] ">
           <div className="grid-container rounded-2xl border-1 border-[#424242]">
             <img
-              src="/assets/grid2.png"
+              src="/Portfolio/assets/grid2.png"
               alt="grid2.png"
               className="object-contain sm:h-[276px] h-fit"
             />
@@ -80,7 +80,7 @@ With Agile team experience and a delivery-first mindset, I’m ready to turn ide
         </div>
         <div className="xl:col-span-2 xl:row-span-3 bg-[#111111] ">
           <div className="grid-container rounded-2xl border-1  border-[#424242]">
-            <img src="/assets/grid3.png" alt="grid3.png" className="w-full sm-[266px] object-contain h-[326px]" />
+            <img src="/Portfolio/assets/grid3.png" alt="grid3.png" className="w-full sm-[266px] object-contain h-[326px]" />
             
               <p className="grid-headtext text-left">My Passion for Coding</p>
               <p className="grid-subtext text-left">I love solving problems and building things through code. Programming isn't just my profession—it's my passion. I enjoy exploring new technologies, and enhancing my skills.</p>
@@ -91,10 +91,10 @@ With Agile team experience and a delivery-first mindset, I’m ready to turn ide
         </div>
         <div className="col-span-1 xl:row-span-2 bg-[#111111] ">
           <div className="grid-container rounded-2xl border-1  border-[#424242] ">
-            <img src="/assets/grid4.png" alt="grid4.png" className="w-full md:h-[126px] sm:h-[276px] object-cover sm:object-top" />
+            <img src="/Portfolio/assets/grid4.png" alt="grid4.png" className="w-full md:h-[126px] sm:h-[276px] object-cover sm:object-top" />
             <p className="grid-subtext">Contact Me</p>
             <span onClick={handleCopy} className=" cursor-pointer flex justify-center items-center gap-2 mt-2 ">
-              <img src={isCopied? "assets/tick.svg":"assets/copy.svg"} alt="copy" />
+              <img src={isCopied? "/Portfolio/assets/tick.svg":"/Portfolio/assets/copy.svg"} alt="copy" />
               <span className=" lg:text-xl md:text-xl font-medium  text-white">huihuiyao1120@gmail.com</span>
             </span>
 

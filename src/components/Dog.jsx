@@ -10,7 +10,7 @@ import React from 'react'
 import { Float, useGLTF } from '@react-three/drei'
 
 const   Dog=(props)=> {
-  const { nodes, materials } = useGLTF('/models/shiba.glb')
+  const { nodes, materials } = useGLTF('/Portfolio/models/shiba.glb')
   return (
     <Float
     speed={4}         
@@ -45,5 +45,5 @@ const   Dog=(props)=> {
   )
 }
 
-useGLTF.preload('/models/shiba.glb')
+useGLTF.preload('/Portfolio/models/shiba.glb')
 export default Dog;

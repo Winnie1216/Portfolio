@@ -26,7 +26,7 @@ export const navLinks = [
       id: 1,
       name: 'Sophia Lin',
       position: 'Product Manager at Qimeng Tech',
-      img: 'assets/review1.png',
+      img: '/Portfolio/assets/review1.png',
       review:
         'Winnie Yao is one of the most dependable developers I\'ve had the pleasure to work with. Her calm, solutions-oriented mindset brought clarity even during high-pressure sprints.',
     },
@@ -34,7 +34,7 @@ export const navLinks = [
       id: 2,
       name: 'Brenton Xie',
       position: 'UOW Computer Science Member',
-      img: 'assets/Brenton_Xie.jpg',
+      img: '/Portfolio/assets/Brenton_Xie.jpg',
       review:
         'Working alongside Winnie at the UOW Computing Society was truly inspiring. She\'s the kind of person who makes everyone feel heard, seen, and motivated. ',
     },
@@ -42,7 +42,7 @@ export const navLinks = [
       id: 3,
       name: 'Jennifer Fan',
       position: 'Product Manager, TidyTeddy Pty Ltd ',
-      img: 'assets/Jennifer_Fan.jpg',
+      img: '/Portfolio/assets/Jennifer_Fan.jpg',
       review:
         'Winnie joined our team as a software developer and quickly proved herself to be a standout contributor. She took full ownership of complex frontend tasks and consistently delivered high-quality code on tight deadlines. Her attention to user experience and proactive problem-solving made a real impact on our booking system. We were lucky to have her, and I’d gladly work with her again.',
     },
@@ -50,7 +50,7 @@ export const navLinks = [
       id: 4,
       name: 'Ether Smith',
       position: 'UOW Classmate',
-      img: 'assets/review4.png',
+      img: '/Portfolio/assets/review4.png',
       review:
         'Winnie has that rare balance of technical competence and team-first attitude. In every group project, she naturally took the initiative — not just by delivering clean, scalable code, but by keeping the entire team organized and motivated. She\'s both technically sharp and deeply considerate — a rare combination.'}
   ];
@@ -64,30 +64,30 @@ export const navLinks = [
       subdesc:
         "The platform is fully responsive across desktop and mobile devices, providing a seamless experience for all users. In addition to frontend development, I contributed to backend integration using Node.js, ensuring smooth data flow between the client and server. I also collaborated closely with the product team to iterate quickly, implement design feedback, and deliver features within tight timelines.",
 
-      texture: '/textures/project/tidyTeddy.mp4',
-      logo: '/assets/tidyTeddy.jpg',
+      texture: '/Portfolio/textures/project/tidyTeddy.mp4',
+      logo: '/Portfolio/assets/tidyTeddy.jpg',
       logoStyle: {
         backgroundColor: '#13202F',
         border: '0.2px solid #17293E',
         boxShadow: '0px 0px 60px 0px #2F6DB54D',
       },
-      spotlight: '/assets/spotlight2.png',
+      spotlight: '/Portfolio/assets/spotlight2.png',
       href: 'https://tidyteddy.com.au/',
       tags: [
         {
           id: 1,
           name: 'React.js',
-          path: '/assets/react.svg',
+          path: '/Portfolio/assets/react.svg',
         },
         {
           id: 2,
           name: 'TailwindCSS',
-          path: 'assets/tailwindcss.png',
+          path: '/Portfolio//tailwindcss.png',
         },
         {
           id: 3,
           name: 'TypeScript',
-          path: '/assets/typescript.png',
+          path: '/Portfolio/assets/typescript.png',
         },
       ],
     },
@@ -99,7 +99,7 @@ export const navLinks = [
         'I also built a dynamic announcement section, contact interface, and integrated form submissions to support internal communication and management. The platform was designed to be scalable and maintainable, ensuring future committee members can easily update content or extend its functionality. ',
       href: 'https://www.ucscomputing.club/',
       texture: '/textures/project/uow.mp4',
-      logo: '/assets/uow_logo.png',
+      logo: '/Portfolio/assets/uow_logo.png',
       logoStyle: {
         backgroundColor: '#60f5a1',
         background:
@@ -107,27 +107,27 @@ export const navLinks = [
         border: '0.2px solid rgba(208, 213, 221, 1)',
         boxShadow: '0px 0px 60px 0px rgba(35, 131, 96, 0.3)',
       },
-      spotlight: '/assets/spotlight4.png',
+      spotlight: '/Portfolio/assets/spotlight4.png',
       tags: [
         {
           id: 1,
           name: 'React.js',
-          path: '/assets/react.svg',
+          path: '/Portfolio/assets/react.svg',
         },
         {
           id: 2,
           name: 'TailwindCSS',
-          path: 'assets/tailwindcss.png',
+          path: '/Portfolio/assets/tailwindcss.png',
         },
         {
           id: 3,
           name: 'TypeScript',
-          path: '/assets/typescript.png',
+          path: '/Portfolio/assets/typescript.png',
         },
         {
           id: 4,
           name: 'Framer Motion',
-          path: '/assets/framer.png',
+          path: '/Portfolio/assets/framer.png',
         },
       ],
     },
@@ -152,7 +152,7 @@ export const navLinks = [
       pos: 'Full Stack Development',
       duration: '1/2023 – 1/2024',
       title: "Built interactive front-end UI with React and Tailwind CSS, ensuring smooth voice playback and mobile responsiveness. Integrated cloned voice previews using Web Audio API, improving user engagement through real-time audio rendering.",
-      icon: '/assets/qimeng.svg',
+      icon: '/Portfolio/assets/qimeng.svg',
       animation: 'victory',
     },
     {
@@ -161,7 +161,7 @@ export const navLinks = [
       pos: 'Co-founder & Chairperson',
       duration: '2024 - 2025 ',
       title: "Designed and launched the official UCS website using React + TypeScript, deployed via Vercel with domain management and CI/CD integration.",
-      icon: '/assets/uow_logo.png',
+      icon: '/Portfolio/assets/uow_logo.png',
       animation: 'clapping',
     },
     {
@@ -170,7 +170,7 @@ export const navLinks = [
       pos: 'Software Developer',
       duration: '11/2024 - 05/2025',
       title: " Collaborated with agile team and delivered responsive multi-platform booking system using React and Node.js. Guided team members in implementing reusable React components, improving development efficiency and code consistency. ",
-      icon: '/assets/tidyTeddy.jpg',
+      icon: '/Portfolio/assets/tidyTeddy.jpg',
       animation: 'salute',
     },
   ];

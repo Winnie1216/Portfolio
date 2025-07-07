@@ -7,10 +7,10 @@ export const Footer = () => {
         <div className="grid-subtext">Terms & Condition | Privacy Policy</div>
         <div className="flex gap-5 items-center text-left">
           <a href="https://github.com/Winnie1216" target="_blank">
-            <img src="/assets/github.svg" alt="github" className="h-8 w-8" />
+            <img src="/Portfolio/assets/github.svg" alt="github" className="h-8 w-8" />
           </a>
           <a href="https://www.linkedin.com/feed/" target="_blank">
-            <img src="/assets/linkedin.png" alt="linkedin" className="h-8 w-8" />
+            <img src="/Portfolio/assets/linkedin.png" alt="linkedin" className="h-8 w-8" />
           </a>
          
         </div>
