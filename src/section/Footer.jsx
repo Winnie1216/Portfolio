@@ -16,6 +16,7 @@ export const Footer = () => {
         </div>
         <div className="grid-subtext text-left">
           <p>© 2025 Winnie(Huihui Yao). All rights reserved.</p>
+          <p></p>
         </div>
       </div>
     </section>
