@@ -9,8 +9,7 @@ export const Footer = () => {
           <a href="https://github.com/Winnie1216" target="_blank">
             <img src="/Portfolio/assets/github.svg" alt="github" className="h-8 w-8" />
           </a>
-          <a href="www.linkedin.com/in/
-winnie-huihui-yao
+          <a href="https://www.linkedin.com/in/winnie-huihui-yao
 " target="_blank">
             <img src="/Portfolio/assets/linkedin.png" alt="linkedin" className="h-8 w-8" />
           </a>
