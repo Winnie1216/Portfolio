@@ -32,9 +32,9 @@ export const navLinks = [
     },
     {
       id: 2,
-      name: 'Brenton Xie',
+      name: 'Lucas Bennett',
       position: 'UOW Computer Science Member',
-      img: '/Portfolio/assets/Brenton_Xie.jpg',
+      img: '/Portfolio/assets/EthanMiller.png',
       review:
         'Working alongside Winnie at the UOW Computing Society was truly inspiring. She\'s the kind of person who makes everyone feel heard, seen, and motivated. ',
     },
@@ -149,7 +149,7 @@ export const navLinks = [
     {
       id: 1,
       name: 'Qimeng Zhizao Information Technology Co., Ltd',
-      pos: 'Full Stack Development',
+      pos: 'Software Engnieer',
       duration: '1/2023 – 1/2024',
       title: "Built interactive front-end UI with React and Tailwind CSS, ensuring smooth voice playback and mobile responsiveness. Integrated cloned voice previews using Web Audio API, improving user engagement through real-time audio rendering.",
       icon: '/Portfolio/assets/qimeng.svg',
@@ -167,7 +167,7 @@ export const navLinks = [
     {
       id: 3,
       name: 'TidyTeddy Pty Ltd, Australia',
-      pos: 'Software Developer',
+      pos: 'Software Engnieer',
       duration: '11/2024 - 05/2025',
       title: " Collaborated with agile team and delivered responsive multi-platform booking system using React and Node.js. Guided team members in implementing reusable React components, improving development efficiency and code consistency. ",
       icon: '/Portfolio/assets/tidyTeddy.jpg',
