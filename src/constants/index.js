@@ -25,7 +25,7 @@ export const navLinks = [
     {
       id: 1,
       name: 'Sophia Lin',
-      position: 'Product Manager at Qimeng Tech',
+      position: 'Colleague at TidyTeddy Pty Ltd',
       img: '/Portfolio/assets/review1.png',
       review:
         'Winnie Yao is one of the most dependable developers I\'ve had the pleasure to work with. Her calm, solutions-oriented mindset brought clarity even during high-pressure sprints.',
@@ -49,7 +49,7 @@ export const navLinks = [
     {
       id: 4,
       name: 'Ether Smith',
-      position: 'UOW Classmate',
+      position: 'Classmate from UOW',
       img: '/Portfolio/assets/review4.png',
       review:
         'Winnie has that rare balance of technical competence and team-first attitude. In every group project, she naturally took the initiative — not just by delivering clean, scalable code, but by keeping the entire team organized and motivated. She\'s both technically sharp and deeply considerate — a rare combination.'}
@@ -146,15 +146,7 @@ export const navLinks = [
   };
   
   export const workExperiences = [
-    {
-      id: 1,
-      name: 'Qimeng Zhizao Information Technology Co., Ltd',
-      pos: 'Software Engnieer',
-      duration: '1/2023 – 1/2024',
-      title: "Built interactive front-end UI with React and Tailwind CSS, ensuring smooth voice playback and mobile responsiveness. Integrated cloned voice previews using Web Audio API, improving user engagement through real-time audio rendering.",
-      icon: '/Portfolio/assets/qimeng.svg',
-      animation: 'victory',
-    },
+    
     {
       id: 2,
       name: 'UOW Computing Society',
@@ -167,9 +159,9 @@ export const navLinks = [
     {
       id: 3,
       name: 'TidyTeddy Pty Ltd, Australia',
-      pos: 'Software Engnieer',
+      pos: 'Software Development Intern, ',
       duration: '11/2024 - 05/2025',
-      title: " Collaborated with agile team and delivered responsive multi-platform booking system using React and Node.js. Guided team members in implementing reusable React components, improving development efficiency and code consistency. ",
+      title: " Collaborated with agile team, participating in code reviews, daily stand-ups, and sprint planning. Communicated effectively with team members and stakeholders, ensuring alignment between technical solutions and business goals. ",
       icon: '/Portfolio/assets/tidyTeddy.jpg',
       animation: 'salute',
     },
